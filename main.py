@@ -79,10 +79,3 @@ def predict(data: StudentData):
 
     prediction = model.predict(input_row)[0]
     return PredictionResponse(predicted_mental_health_score=round(float(prediction),2))
-
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/V-Madara/Mansik-Health.git
-git push -u origin main
