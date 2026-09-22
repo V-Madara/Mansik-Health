@@ -6,7 +6,7 @@
    submission to FastAPI /predict, results rendering, print/reset.
    ========================================================================== */
 
-const API_URL = 'https://mansik-health-score.onrender.com/';
+const API_URL = 'https://mansik-health.onrender.com';
 
 /* -------------------------------------------------------------------------
    Header / navigation
